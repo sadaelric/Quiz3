@@ -9,7 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class MyInteger_Test {
-
+	static Triangle intal;
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -28,7 +28,9 @@ public class MyInteger_Test {
 
 	@Test
 	public void test() {
-		assertTrue(1==1);
+Triangle mytriangle = new Triangle(1,2,3)
+assertEquals(6,getPerimeter.Triangle());
+assertEquals(1.5,getArea.Triangle());
 	}
 
 }
